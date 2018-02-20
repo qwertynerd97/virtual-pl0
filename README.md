@@ -1,18 +1,13 @@
-/////////////////////
-/// READ ME FIRST ///
-/////////////////////
+**To run the program:**
 
-To run the program:
-	Put the PL/0 code into a file named pl0.txt
-	Put pl0.txt into the folder with scanner.c, parser.c, virtualmachine.c, and controller.c
-	Compile controller.c with a C compiler
-	Run the executable file that was produced by the compiler
+Put the PL/0 code into a file named pl0.txt 
+
+Put pl0.txt into the folder with scanner.c, parser.c, virtualmachine.c, and controller.c
+
+Compile controller.c with a C compiler
+
+Run the executable file that was produced by the compiler
 	
-	Changelog: Procedure, call, and else have been implemented
-	NOTE: procedure returns a value to the calling statement. (Extra credit implemented)
-	
-Note: 
-	Running with -l prints out lexemes
-				 -a prints out assembly
-				 -v prints out the output
-	The program can be run with any combination of the above.
+**Note:**
+Running with -l prints out lexemes, -a prints out assembly, -v prints out the output.  
+The program can be run with any combination of the above.

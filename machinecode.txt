@@ -1,0 +1,57 @@
+6 0 0 4
+6 0 0 1
+6 0 0 1
+6 0 0 1
+6 0 0 1
+6 0 0 1
+7 0 0 34
+
+1 0 0 1 // load 1
+4 0 0 5 // store 1 into z
+3 0 0 4 // load y
+3 1 0 5 // load z
+11 0 0 1 // add y+z
+3 1 3 8 // load w
+11 0 0 1 // add (y+z) + w
+4 0 2 4 // store into x
+2 0 0 0 // return
+
+3 0 1 4 // load x into r[0]
+3 1 1 6 // load u into r[1]
+11 0 0 1 // add x+u
+3 1 2 8 // load w into r[1]
+11 0 0 1 // add (x+u) + w
+4 0 0 4 // store into y
+5 0 0 7 // call c  (WORKS!)
+6 0 0 2 // increment by 2??? oh, for the call, hmm
+2 0 0 0 // return
+
+1 0 0 2 // load 2 into r[0]
+4 0 1 6 // store r[0] into 
+3 0 1 6
+3 1 1 8
+11 0 0 1
+4 0 0 6
+5 0 0 7
+6 0 0 3
+2 0 0 0
+
+1 0 0 1
+4 0 0 4
+1 0 0 2
+4 0 0 5
+1 0 0 3
+4 0 0 6
+1 0 0 4
+4 0 0 7
+1 0 0 5
+4 0 0 8
+3 0 0 7
+3 1 0 8
+11 0 0 1
+4 0 0 4
+3 0 0 4
+9 0 0 1
+5 0 0 6
+6 0 0 4
+9 0 0 3
